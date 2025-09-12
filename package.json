@@ -10,13 +10,15 @@
   "dependencies": {
     "@oclif/core": "^4",
     "@oclif/plugin-help": "^6",
-    "@oclif/plugin-plugins": "^5"
+    "@oclif/plugin-plugins": "^5",
+    "inquirer": "^12.9.4"
   },
   "devDependencies": {
     "@eslint/compat": "^1",
     "@oclif/prettier-config": "^0.2.1",
     "@oclif/test": "^4",
     "@types/chai": "^4",
+    "@types/inquirer": "^9.0.9",
     "@types/mocha": "^10",
     "@types/node": "^18",
     "chai": "^4",
