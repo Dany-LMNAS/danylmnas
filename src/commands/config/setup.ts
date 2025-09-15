@@ -3,16 +3,6 @@ import * as fs from 'fs';
 import * as path from 'path';
 import * as os from 'os';
 import inquirer from 'inquirer';
-function isValidUrl(url: string): boolean {
-  try {
-    new URL(url);
-    return true;
-  } catch {
-    return false;
-  }
-}
-
-
 export default class ConfigSetup extends Command {
   static description = 'Setup and store URL and basic key in config JSON';
   
